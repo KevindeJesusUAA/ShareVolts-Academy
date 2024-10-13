@@ -1,13 +1,8 @@
-# ShareVolts-Academy
+# React + Vite
 
-Versión de nodejs:
-20.18.0
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Versión de npm:
-10.9.0
+Currently, two official plugins are available:
 
-Para actualizar nodejs a la última versión es ir al siguiente enlace;
-https://nodejs.org/en
-
-Para actualizar npm install a la última versión:
-npm install -g npm@latest
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -1,0 +1,96 @@
+.course-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .course-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .course-body {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bd8741;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background-color: #bd8741;
+    font-weight: bold;
+  }
+  
+  .progress-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #bd8741;
+  }
+  
+  .course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .course-table th, .course-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .start-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bd8741;
+    color: #333;
+    cursor: pointer;
+  }
+  

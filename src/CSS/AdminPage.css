@@ -1,0 +1,115 @@
+.admin-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .admin-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .admin-body {
+    padding: 20px;
+  }
+  
+  .search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button,
+  .options-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bd8741;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .options-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .admin-table td {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .admin-table tr{
+    background-color: white;
+    margin-bottom: 5px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination-button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bd8741;
+    color: #333;
+  }
+  

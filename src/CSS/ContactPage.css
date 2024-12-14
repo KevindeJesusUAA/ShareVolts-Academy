@@ -1,0 +1,92 @@
+/* Página de contacto */
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Contenedor principal */
+  .contact-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: -50px;
+  }
+  
+  /* Lista de mentores */
+  .mentor-list {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mentor-list h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .mentor-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .mentor-item.selected {
+    background-color: #d2b48c;
+    color: white;
+    border-color: transparent;
+  }
+  
+  /* Detalles del mentor */
+  .mentor-details {
+    flex: 1;
+    background-color: #d2b48c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mentor-details h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .mentor-details label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .mentor-details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .mentor-details button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mentor-details button:hover {
+    background-color: #444;
+  }
+  

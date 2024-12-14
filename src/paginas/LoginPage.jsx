@@ -5,19 +5,6 @@ import "../CSS/LoginPage.css";
 const LoginPage = () => {
     return (
       <div className="login-page">
-        <header className="login-header">
-          <nav className="navbar">
-            <span className="navbar-logo">LOGIN</span>
-            <ul className="navbar-links">
-              <li><Link to="/inicio">INICIO</Link></li>
-              <li><Link to="/cursos">CURSOS</Link></li>
-              <li><Link to="/reuniones">REUNIONES</Link></li>
-              <li><Link to="/proyecto">PROYECTO</Link></li>
-              <li><Link to="/contacto">CONTACTO Y COMENTARIOS</Link></li>
-            </ul>
-          </nav>
-        </header>
-  
         <main className="login-main">
           <div className="login-banner">
             <h1>SHAREVOLTS</h1>
@@ -30,10 +17,10 @@ const LoginPage = () => {
             </div>
             <form className="login-form">
               <label htmlFor="email">EMAIL</label>
-              <input type="email" id="email" placeholder="Tú email" required />
+              <input type="email" id="email" placeholder="Tu email" required />
   
               <label htmlFor="password">CONTRASEÑA</label>
-              <input type="password" id="password" placeholder="Tú contraseña" required />
+              <input type="password" id="password" placeholder="Tu contraseña" required />
   
               <button type="submit">ACCEDER</button>
             </form>
